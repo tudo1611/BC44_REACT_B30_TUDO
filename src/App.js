@@ -1,17 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./BaiTapLayoutComponent/Header";
-import Banner from "./BaiTapLayoutComponent/Banner";
-import Item from "./BaiTapLayoutComponent/Item";
-import Footer from "./BaiTapLayoutComponent/Footer";
+
+import Ex_Layout from "./BaiTapLayoutComponent/Ex_Layout";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Banner />
-      <Item />
-      <Footer />
+      <Ex_Layout />
     </div>
   );
 }
